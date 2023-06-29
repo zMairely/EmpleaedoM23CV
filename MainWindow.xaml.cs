@@ -1,4 +1,5 @@
-﻿using EmpleaedoM23CV.Entities;
+﻿using EmpleaedoM23CV.Context;
+using EmpleaedoM23CV.Entities;
 using EmpleaedoM23CV.Services;
 using System;
 using System.Collections.Generic;
@@ -66,5 +67,32 @@ namespace EmpleaedoM23CV
             //MessageBox.Show("se agrego correctamente");
         
         }
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+
+
+
+
+
     }
 }

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using EmpleaedoM23CV.Entities;
+using EmpleaedoM23CV.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,7 +29,42 @@ namespace EmpleaedoM23CV
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            Empleado empl = new Empleado();
+            EmpleadoServices services = new EmpleadoServices();
 
+            empl.Nombre = txtNombre.Text;
+            empl.Apellido = txtApellido.Text;
+            empl.Correo = txtNombre.Text;
+
+            if (empl.Nombre == null && empl.Apellido == null && empl.Correo == null)
+            {
+           
+
+                MessageBox.Show("Falta campos por llenar");
+             
+            }
+            else
+            {
+                services.Add(empl);
+
+                txtNombre.Clear();
+                txtApellido.Clear();
+                txtCorreo.Clear();
+                MessageBox.Show("se agrego correctamente");
+            }
+            
+                
+            
+
+            //validar que no esten vacios 
+
+            //services.Add(empl);
+
+            //txtNombre.Clear();
+            //txtApellido.Clear();
+            //txtCorreo.Clear();
+            //MessageBox.Show("se agrego correctamente");
+        
         }
     }
 }

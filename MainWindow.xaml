@@ -17,13 +17,13 @@
         <Label Content="fecha Ingreso " HorizontalAlignment="Left" Height="27" Margin="6,80,0,0" VerticalAlignment="Top" Width="84" Grid.Row="1"/>
         <Label Content="id" HorizontalAlignment="Left" Height="25" Margin="19,107,0,0" VerticalAlignment="Top" Width="92" Grid.Row="1"/>
         <Label Content="EMPLEADO" HorizontalAlignment="Left" Height="44" Margin="162,0,0,0" VerticalAlignment="Top" Width="170"/>
-        <TextBox HorizontalAlignment="Left" Height="19" Margin="90,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143"/>
-        <TextBox HorizontalAlignment="Left" Height="24" Margin="90,4,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" TextChanged="TextBox_TextChanged" Grid.Row="1"/>
-        <TextBox HorizontalAlignment="Left" Height="32" Margin="90,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" TextChanged="TextBox_TextChanged" Grid.Row="1"/>
-        <TextBox HorizontalAlignment="Left" Height="25" Margin="94,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" Grid.Row="1"/>
-        <TextBox HorizontalAlignment="Left" Height="16" Margin="90,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="122" Grid.Row="1"/>
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="19" Margin="90,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143"/>
+        <TextBox x:Name="txtApellido" HorizontalAlignment="Left" Height="24" Margin="90,4,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112"  Grid.Row="1"/>
+        <TextBox x:Name="txtCorreo" HorizontalAlignment="Left" Height="32" Margin="90,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112"  Grid.Row="1"/>
+        <TextBox x:Name="txtFecha" HorizontalAlignment="Left" Height="25" Margin="94,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" Grid.Row="1"/>
+        <TextBox x:Name="txtID" HorizontalAlignment="Left" Height="16" Margin="90,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="122" Grid.Row="1"/>
         <Button Content="VER " HorizontalAlignment="Left" Height="46" Margin="51,241,0,0" VerticalAlignment="Top" Width="81" Grid.Row="1"/>
-        <Button Content="AGREGAR" HorizontalAlignment="Left" Height="46" Margin="176,241,0,0" VerticalAlignment="Top" Width="73" Click="Button_Click" Grid.Row="1"/>
+        <Button x:Name="btnAgregar" Content="AGREGAR" HorizontalAlignment="Left" Height="46" Margin="176,241,0,0" VerticalAlignment="Top" Width="73" Click="Button_Click" Grid.Row="1"/>
         <Button Content="EDITAR " HorizontalAlignment="Left" Height="46" Margin="293,241,0,0" VerticalAlignment="Top" Width="75" Grid.Row="1"/>
         <Button Content="BORRAR" HorizontalAlignment="Left" Height="33" Margin="146,311,0,0" VerticalAlignment="Top" Width="128" Grid.Row="1"/>
 

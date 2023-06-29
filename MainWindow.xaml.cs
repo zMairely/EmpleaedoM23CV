@@ -37,21 +37,21 @@ namespace EmpleaedoM23CV
             empl.Apellido = txtApellido.Text;
             empl.Correo = txtNombre.Text;
 
-            if (empl.Nombre == null && empl.Apellido == null && empl.Correo == null)
+            if (String.IsNullOrEmpty (empl.Nombre) || String.IsNullOrEmpty (empl.Apellido ) || String.IsNullOrEmpty (empl.Correo) )
             {
-           
 
-                MessageBox.Show("Falta campos por llenar");
-             
-            }
-            else
-            {
                 services.Add(empl);
 
                 txtNombre.Clear();
                 txtApellido.Clear();
                 txtCorreo.Clear();
                 MessageBox.Show("se agrego correctamente");
+              
+             
+            }
+            else
+            {
+                MessageBox.Show("Falta campos por llenar");
             }
             
                 
@@ -70,11 +70,6 @@ namespace EmpleaedoM23CV
 
 
        
-
-
-
-
-
 
 
 

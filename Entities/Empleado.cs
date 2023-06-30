@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmpleaedoM23CV.Entities
+namespace Empleado23AM.Entities
 {
     public class Empleado
     {

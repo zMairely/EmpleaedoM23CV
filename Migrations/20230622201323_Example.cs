@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using MySql.EntityFrameworkCore.Metadata;
 
-namespace EmpleaedoM23CV.Migrations
+namespace Empleado23AM.Migrations
 {
     public partial class Example : Migration
     {

@@ -1,7 +1,7 @@
-﻿<Application x:Class="EmpleaedoM23CV.App"
+﻿<Application x:Class="Empleado23AM.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:EmpleaedoM23CV"
+             xmlns:local="clr-namespace:Empleado23AM"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

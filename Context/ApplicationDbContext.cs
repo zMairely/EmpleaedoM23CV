@@ -1,7 +1,7 @@
-﻿using EmpleaedoM23CV.Entities;
+﻿using Empleado23AM.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace EmpleaedoM23CV.Context
+namespace Empleado23AM.Context
 {
     public class ApplicationDbContext : DbContext
     {

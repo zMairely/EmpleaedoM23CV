@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace EmpleaedoM23CV
+namespace Empleado23AM
 {
     /// <summary>
     /// Interaction logic for App.xaml

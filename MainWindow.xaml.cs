@@ -52,6 +52,9 @@ namespace Empleado23AM
             }
             else
             {
+                txtNombre.Clear();
+                txtApellido.Clear();
+                txtCorreo.Clear();
                 MessageBox.Show("se agrego correctamente");
             }
             
